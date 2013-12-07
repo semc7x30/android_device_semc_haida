@@ -13,3 +13,6 @@
 # limitations under the License.
 
 add_lunch_combo cm_haida-eng
+add_lunch_combo cm_haida-userdebug
+add_lunch_combo aokp_haida-userdebug
+add_lunch_combo aokp_haida-eng
