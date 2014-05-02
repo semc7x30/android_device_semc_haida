@@ -17,6 +17,9 @@
 
 TARGET_SPECIFIC_HEADER_PATH += device/semc/haida/include
 
+# Recovery
+DEVICE_RESOLUTION := 480x854
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/bluedroid
 
@@ -32,6 +35,3 @@ TARGET_OTA_ASSERT_DEVICE := MT11i,MT11a,haida
 
 # HDMI
 TARGET_QCOM_HDMI_OUT := false
-
-# CM Hardware tunables
-BOARD_HARDWARE_CLASS += device/semc/haida/cmhw
